@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: #F0F8FF;
+    height: 20vh;
+    width: 100vw;
+}
+
+
+footer {
+    clear: both;
+    background-color: #F0F8FF;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.top {
+    width: 100vw;
+    height: 20vh;
+}
+
+.mid {
+    width: 100vw;
+    height: 20vh;
+}
+
+.bottom {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+}
+
+div ul {
+    height: 140px;
+    width: 30vw;
+}
+
+div ul {
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.new-attendence {
+    width: 80px;
+    height: 30px;
+}
