@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f8f8f8;
+    color: #29292E;
+    justify-content: center;
+}
+
+
+.date {
+    width: 150px;
+}
+
+.done {
+    height: 38px;
+    width: 300px;
+    border-radius: 13px;
+    font-weight: 500;
+    color: #000000;
+    padding: 0 32px;
+
+    border: solid 2px #a6a6a6;
+
+    margin: 13px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.done label {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+
+.done-content {
+    height: 50vh;
+}
+
+.finish {
+    width: 170px;
+}
+
+.note-label {
+    padding: 15px;
+    margin-left: 30px;
+}
+
+textarea {
+    height: 220px;
+    width: 300px;
+    border-radius: 13px;
+    font-weight: 500;
+    color: #000000;
+    border: solid 2px #b581ff;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+textarea::placeholder {
+    padding: 10px;
+}
+
+textarea:focus {
+    border: solid 3px #b581ff;
+    transition: filter 0.2s;
+    outline: 0;
+    box-shadow: 0;
+    padding: 10px;
+}
+
+.to-finish,
+.note-text {
+    width: 26vw;
+    justify-content: end;
+    display: flex;
+}

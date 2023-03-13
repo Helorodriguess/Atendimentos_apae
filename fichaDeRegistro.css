@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f8f8f8;
+    color: #29292E;
+    justify-content: center;
+}
+
+body,
+input,
+button,
+textarea {
+    font: 400 16px "Roboto", sans-serif;
+}
+
+header {
+    height: 12vh;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+main {
+    width: 100vw;
+    margin: 0;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 100vw;
+    justify-content: center;
+}
+
+.top {
+    width: 100vw;
+    height: 14vh;
+}
+
+.top,
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    width: 35vw;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.left {
+    height: 60vh;
+    width: 35vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.information {
+    height: 180px;
+    width: 30vw;
+    border: solid 2px #b581ff;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    padding: 20px;
+    padding-left: 0;
+    width: 40vw;
+}
+
+.date {
+    height: 35px;
+    border-radius: 12px;
+    font-weight: 500;
+    background: white;
+    border: solid 2px #b31ff8;
+    color: black;
+    padding: 0 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.finish,
+.new-attendence {
+    height: 35px;
+    border-radius: 12px;
+    font-weight: 500;
+    color: #FFF;
+    padding: 0 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    border: 0;
+    transition: filter 0.2s;
+}
+
+.finish {
+    background: #b31ff8;
+}
+
+.new-attendence {
+    background-color: #b581ff;
+    margin-bottom: 10px;
+    width: 200px;
+    margin-right: 3vw;
+}
+
+.finish,
+.new-attendence:hover {
+    filter: brightness(0.9);
+}
+
+.program,
+.procedure,
+.behavior {
+    padding: 15px;
+}
+
+.attendence-list {
+    width: 35vw;
+    height: 46vh;
+    justify-content: center;
+    align-items: end;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.attendence {
+    width: 35vw;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+
+}
+
+div ul {
+    height: 180px;
+    width: 30vw;
+    border: solid 2px #a6a6a6;
+    border-radius: 10px;
+    background-color: white;
+}
+
+div ul {
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+::-webkit-scrollbar {
+    border-radius: 10px;
+    width: 0px;
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d088f1;
+    border-radius: 13px;
+    width: 5px;
+}
+
+
+div ul li {
+    padding-top: 6px;
+    padding-left: 6px;
+}
